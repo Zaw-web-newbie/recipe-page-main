@@ -1,0 +1,76 @@
+
+body{background-color:  hsl(30, 54%, 90%);width: 100vw;margin: 50px; }
+.recepie-page{
+    background-color: hsl(0, 0%, 100%);
+   width:50vw;;
+    padding: 4px;
+   margin: 0 auto;
+    border-radius: 15px;
+}
+    
+    .header{
+width: 100%;
+height: 50%;
+
+}
+#recepie-img{border-radius: 10px;max-width: 100%;}
+.image{object-fit: contain;width: 100%;padding: 0 auto;margin: 0 auto;}
+.title{font-family: Young Serif;font-weight: 400;text-align: left;font-size: 23px;}
+.summary{font-size: 10px;font-family: Outfit,sans-serif;color: hsl(30, 10%, 34%);}
+.prep{
+    background-color:  hsl(330, 100%, 98%);font-family: Outfit,san-serif;width: 100%;padding: 3px 0px;border-radius: 14px;}
+
+  .preptime{color: hsl(332, 51%, 32%);font-size: 16px;
+font-weight: 700;padding-left: 25px;;}
+
+.prep-list li{margin-bottom: 10px;font-size: 13px;font-weight: 400;padding-left: 20px;color: hsl(30, 10%, 34%);}
+.prep-list li::marker{color:hsl(332, 51%, 32%); }
+.bold{font-weight: bold;}
+.ingredients{width: 100%;padding: 3px 0;border-bottom: solid 0.1px hsl(30, 18%, 87%);}
+.ingredients>h2{
+    color: hsl(14, 45%, 36%);
+    font-family: Young serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.ingredient-list li{color: hsl(30, 10%, 34%);font-family: Outfit,sans-serif;
+font-size: 13px;margin-bottom: 10px;
+padding-left: 20px;
+}
+.ingredient-list li::marker{color: hsl(332, 51%, 32%);}
+
+.instructions{width: 100%;padding: 3px 0;border-bottom: solid 0.1px hsl(30, 18%, 87%);}
+.instructions>h2{color: hsl(14, 45%, 36%);font-family: Young serif;
+    font-weight: 400;
+    font-size: 24px;}
+.instructions li{color: hsl(30, 10%, 34%);font-family: Outfit,sans-serif;
+    font-size: 13px;margin-bottom: 10px;
+    padding-left: 20px;}
+.instructions li::marker{color: hsl(332, 51%, 32%);font-weight: 800}
+   
+.Nutrition{width: 100%;padding: 3px 3px;}
+.Nutrition>h2{color: hsl(14, 45%, 36%);font-family: Young serif;
+    font-weight: 400;
+    font-size: 26px;}
+.Nutrition>p{font-family: Outfit; color: hsl(30, 10%, 34%);}
+.sentence{font-size: 13px;}
+
+.red{color: hsl(14, 45%, 36%);float: right;}
+.line{border-bottom: solid 0.1px hsl(30, 18%, 87%);padding-bottom: 10px;}
+.center{display: flex;justify-content: space-around;align-items: center;font-size: 13px;}
+.margin{margin: 10px 10px;}
+@media (max-width:375px){
+    .recepie-page{width: 100vw;;padding: 0 auto;border-radius: 0;}
+    .margin{margin: 0;}
+        body{margin: 0;width: 100;bottom: 0;}
+        image{object-fit: cover;width: 100%;border-radius: 0;}
+        #recepie-img{border-radius: 0;margin: 0;width: 100%;padding: 0;}
+
+
+
+
+
+
+
+
+}
